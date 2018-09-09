@@ -9,6 +9,7 @@ apply from: "$rootProject.rootDir.absolutePath/gradle/publish-android-library.gr
 
 buildscript {
     repositories {
+        google()
         mavenLocal()
         jcenter()
         maven {
@@ -17,7 +18,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.android.tools.build:gradle:3.1.4'
     }
 
 }
