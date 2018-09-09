@@ -5,7 +5,7 @@ ext {
 }
 
 apply from: '../config/quality-java.gradle'
-apply from: "$rootProject.rootDir.absolutePath/gradle/publish-android-library.gradle"
+//apply from: "$rootProject.rootDir.absolutePath/gradle/publish-android-library.gradle"
 
 buildscript {
     repositories {

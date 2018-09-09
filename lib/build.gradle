@@ -2,8 +2,8 @@ import java.text.SimpleDateFormat
 
 apply plugin: 'java'
 apply plugin: 'me.champeau.gradle.jmh'
-apply plugin: 'maven-publish'
-apply plugin: 'com.jfrog.bintray'
+//apply plugin: 'maven-publish'
+//apply plugin: 'com.jfrog.bintray'
 apply from: '../config/quality-java.gradle'
 
 group = rootProject.ext.groupName
@@ -109,7 +109,7 @@ task javadocJar(type: Jar, dependsOn: javadoc) {
 artifacts {
     archives sourcesJar, javadocJar
 }
-
+/*
 publishing {
     publications {
         mavenJava(MavenPublication) {
@@ -161,3 +161,4 @@ bintray {
         }
     }
 }
+*/
