@@ -27,7 +27,7 @@ def isTravis = "true".equals(System.getenv("TRAVIS"))
 
 android {
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
-    buildToolsVersion rootProject.ext.androidBuildToolsVersion
+    //buildToolsVersion rootProject.ext.androidBuildToolsVersion
 
     defaultConfig {
         minSdkVersion rootProject.ext.androidMinSdkVersion
