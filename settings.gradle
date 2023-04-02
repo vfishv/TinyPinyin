@@ -1,5 +1,6 @@
-include ':tinypinyin-lexicons-android-cncity', ':tinypinyin-lexicons-java-cncity',
+include ':lib'
+//include ':tinypinyin-lexicons-java-cncity'
+include ':tinypinyin-lexicons-android-cncity',
         ':android-sample',
         ':tinypinyin-android-asset-lexicons'
 rootProject.name = 'tinypinyin'
-include 'lib'
