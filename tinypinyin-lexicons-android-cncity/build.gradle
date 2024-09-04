@@ -34,9 +34,10 @@ javadoc {
 def isTravis = "true".equals(System.getenv("TRAVIS"))
 
 android {
-    compileSdkVersion rootProject.ext.androidCompileSdkVersion
+    compileSdk rootProject.ext.androidCompileSdkVersion
     //buildToolsVersion rootProject.ext.androidBuildToolsVersion
     testOptions.unitTests.includeAndroidResources = true
+    namespace 'com.github.promeg.tinypinyin.lexicons.android.cncity'
 
     defaultConfig {
         minSdkVersion rootProject.ext.androidMinSdkVersion

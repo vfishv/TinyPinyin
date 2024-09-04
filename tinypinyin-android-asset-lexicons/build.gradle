@@ -31,8 +31,9 @@ buildscript {
 }
 
 android {
-    compileSdkVersion rootProject.ext.androidCompileSdkVersion
+    compileSdk rootProject.ext.androidCompileSdkVersion
     //buildToolsVersion rootProject.ext.androidBuildToolsVersion
+    namespace 'com.github.promeg.tinypinyin.android.asset.lexicons'
 
     defaultConfig {
         minSdkVersion rootProject.ext.androidMinSdkVersion

@@ -9,10 +9,12 @@ tasks.withType(JavaCompile) {
 }
 
 android {
-    compileSdkVersion rootProject.ext.androidCompileSdkVersion
+    compileSdk rootProject.ext.androidCompileSdkVersion
     //buildToolsVersion rootProject.ext.androidBuildToolsVersion
+    namespace 'com.github.promeg.tinypinyin.android_sample'
 
     defaultConfig {
+        applicationId "com.github.promeg.tinypinyin.android_sample"
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
         versionCode rootProject.ext.releaseVersionCode
