@@ -10,7 +10,7 @@ buildscript {
         maven { url = uri("https://maven.aliyun.com/repository/public") }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.5.2'
+        classpath 'com.android.tools.build:gradle:8.7.2'
 
         //classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         //classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.1"
